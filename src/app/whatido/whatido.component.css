@@ -1,0 +1,17 @@
+.card:hover{
+    transform: scale(1.1,1.1);    
+    transition-duration: 150ms;
+}
+
+.container{
+    animation: div-appear 500ms ease-in;
+}
+
+@keyframes div-appear{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}

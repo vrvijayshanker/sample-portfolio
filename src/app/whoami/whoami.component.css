@@ -1,0 +1,33 @@
+.portrait{
+    width: 300px;
+    border-radius: 10rem;
+    margin-top: 50px;
+    margin-left: 15px;
+    animation: load-appear 500ms ease-in;
+    
+}
+.techimage{
+    width:500px;
+    margin-left: 200px;
+    opacity: 20%;
+}
+.whoami{
+    color: #ffffff;
+}
+ul{
+    list-style: none;
+    font-size: larger;    
+}
+.strengths{
+    animation: load-appear 1000ms ease-in;
+}
+
+@keyframes load-appear{
+    0%{
+        opacity: 0%;
+        
+    }
+    100%{
+        opacity: 100%;
+    }
+}
